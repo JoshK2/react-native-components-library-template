@@ -26,5 +26,13 @@
   },
   "jest": {
     "preset": "react-native"
+  },
+  "bit": {
+    "env": {
+      "compiler": "bit.envs/compilers/react-native@1.0.17"
+    },
+    "componentsDefaultDirectory": "components/{name}",
+    "packageManager": "npm",
+    "defaultScope": "joshk.react-native-components-library-template"
   }
 }
