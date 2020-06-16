@@ -44,7 +44,7 @@ Button.propTypes = {
 };
 
 Button.defaultProps = {
-  text: 'Button',
+  text: 'Button text',
 };
 
 export {Button};
